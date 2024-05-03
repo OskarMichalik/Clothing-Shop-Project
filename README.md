@@ -1,19 +1,15 @@
 # Project
-/							- Home
-/{id}							- Detale przedmiotu
-/selected-category/{slugCategory}			- Jeden z głównych kategorii
-/selected-category/{slugCategory}/{slugCategoryDown}	- Jeden z pomniejszych kategorii
-/search-input/{daneWyszukiwania}			- Wynik wyszukiwania
+/							                                        - Home <br/>
+/{id}							                                    - Item's details <br/>
+/selected-category/{slugCategory}			                 - Main Categories <br/>
+/selected-category/{slugCategory}/{slugCategoryDown}	-  Sub Categorie <br/>
+/search-input/{daneWyszukiwania}			              - Search <br/>
+<br/>
+<h2>BAZA DANYCH</h2>  <br/>
+node db/initdb.js	- initializes the data base <br/>
+node db/removedb.js	- removes the data base <br/> 
+node db/removeBuyers.js	- removes buyers <br/>
+node db/showBuyers.js	- shows buyers <br/>
+node db/showItems.js	- shows items <br/>
 
-
-
-BAZA DANYCH
-node db/initdb.js	- inicjalizuje baze danych
-node db/removedb.js	- usuwa baze danych
-node db/removeBuyers.js	- usuwa osoby które coś kupiły
-node db/showBuyers.js	- pokazuje osoby które coś kupiły
-node db/showItems.js	- pokazuje przemioty
-
-STORE
-context do navigacji i wybranyej kategorii
 
