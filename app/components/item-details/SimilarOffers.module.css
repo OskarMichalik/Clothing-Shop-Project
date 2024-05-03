@@ -1,0 +1,23 @@
+.similarMain {
+    margin: 0 auto;
+    width: max(800px, 70vw);
+}
+
+.similarMain h2 {
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .similarMain {
+        width: 100%;
+    }
+
+}

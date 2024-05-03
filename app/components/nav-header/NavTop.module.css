@@ -1,0 +1,22 @@
+.NavTopMain{
+    width: max(60%, 800px);
+    /*  800px   */
+    height: 50px;
+    /*background-color: blue;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+}
+@media only screen and (max-width: 800px) {
+    .NavTopMain {
+        height: 150px;
+        display:flex;
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+        text-align: center;
+        gap: 5px;
+    }
+}

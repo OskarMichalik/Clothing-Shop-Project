@@ -1,0 +1,22 @@
+.list{
+    display: flex;
+    justify-content: center;
+    gap:3%;
+    align-items: center;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+    margin-top: 0;
+    padding-top: 16px;
+    padding-left: 0;
+}
+.list li{
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}

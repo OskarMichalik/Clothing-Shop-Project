@@ -1,0 +1,41 @@
+
+
+.item{
+    width: max(200.25px, 15vw);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: max(400.5, 30vw);
+    text-align: left;
+}
+.item a{
+    text-decoration: none;
+}
+.text{
+    padding: 5px 0;
+}
+.text h2{
+    margin: 0;
+    font-size: max(15px, 1vw);
+    font-family: "Lora", serif !important;
+    color: black;
+}
+.text p{
+    margin: 0;
+    font-size: max(12px, 0.9vw);
+    font-family: "Lora", serif !important;
+    color: black;
+}
+.category{
+    color: rgb(143, 143, 143) !important;
+}
+.image{
+    width: 100%;
+    height: max(267px, 20vw);
+    position: relative;
+}
+.image img{
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

@@ -1,0 +1,24 @@
+
+.tableOutputDiv table{
+    margin: 0 auto;
+    width: max(350px,20%);
+}
+.tableOutputDiv th{
+    font-family: "Lora", serif;
+    text-align: left;
+    color: rgb(143, 143, 143);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.tableOutputDiv td{
+    width: 50%;
+    text-align: left;
+}
+.tableOutputDiv a{
+    text-decoration: none;
+    color: black
+}
+.tableOutputDiv a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
