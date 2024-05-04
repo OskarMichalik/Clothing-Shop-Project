@@ -1,9 +1,9 @@
 DIRECTORY
-/							                                            - Home 
-/{id}							                                        - Item's details
-/selected-category/{slugCategory}			                    - Main Categories 
-/selected-category/{slugCategory}/{slugCategoryDown}	    - Sub Categorie
-/search-input/{daneWyszukiwania}			                    - Search 
+/                                                         - Home 
+/{id}                                                     - Item's details
+/selected-category/{slugCategory}	                  - Main Categories 
+/selected-category/{slugCategory}/{slugCategoryDown}	  - Sub Categorie
+/search-input/{daneWyszukiwania}                          - Search 
 
 DATA BASE
 node db/initdb.js	        - initializes the data base
